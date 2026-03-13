@@ -11,7 +11,7 @@ for archivo in os.listdir("soluciones"):
 eleccion = None
 
 while eleccion != "0":
-    print("\n=== MIS EJERCICIOS ===")
+    print("\n=== EJERCICIOS ===")
     for numero, archivo in sorted(ejercicios.items()):
         nombre = archivo.replace(".py", "").split("_", 1)[1].replace("_", " ")
         print(f"{numero} - {nombre}")
